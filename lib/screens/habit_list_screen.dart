@@ -27,7 +27,7 @@ class _HabitListScreenState extends ConsumerState<HabitListScreen> {
     ref.watch(completionProvider);
 
     return (Scaffold(
-      appBar: AppBar(title: Text('Habits')),
+      appBar: AppBar(title: Text('Habits ')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
