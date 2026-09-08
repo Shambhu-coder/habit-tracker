@@ -37,7 +37,7 @@ class _HabitListScreenState extends ConsumerState<HabitListScreen> {
               child: TextField(
                 controller: habitNameController,
                 decoration: InputDecoration(
-                  hintText: 'Enter your new habit here...',
+                  hintText: 'Enter your new habit',
                   border: OutlineInputBorder(),
                 ),
               ),
